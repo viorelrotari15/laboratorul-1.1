@@ -1,0 +1,221 @@
+1.main.c : HEAD SHA-1 checksum, 
+commit 90b6c7ed31f8aededdc84a39f31fca433f34684e (HEAD -> main.c, origin/main.c)
+Author: viorelrotari15 <viorelrotari15@gmail.com>
+Date:   Sun Oct 6 21:16:42 2019 +0300
+
+    main c commit
+
+diff --git a/main.c b/main.c
+index e69de29..45fb5b4 100644
+--- a/main.c
++++ b/main.c
+@@ -0,0 +1,7 @@
++#include <stdio.h>
++int main()
++{
++   // printf() displays the string inside quotation
++   printf("Hello, World!");
++   return 0;
++}
+
+2.main.cpp : HEAD SHA-1 checksum, 
+$ git show
+commit e0d6690c5e0ca3864f3a739568ec7b9399de195f (HEAD -> main.cpp, origin/main.cpp)
+Author: viorelrotari15 <viorelrotari15@gmail.com>
+Date:   Sun Oct 6 21:25:27 2019 +0300
+
+    main cpp commit
+
+diff --git a/main.cpp b/main.cpp
+new file mode 100644
+index 0000000..777e2ff
+--- /dev/null
++++ b/main.cpp
+@@ -0,0 +1,7 @@
++#include <iostream>
++using namespace std;
++int main()
++{
++    cout << "Hello, World!";
++    return 0;
++}
+\ No newline at end of file
+
+3.main.cs : HEAD SHA-1 checksum,
+commit e1b197da08871a2670bda45dd3bef0019d44aabb (HEAD -> main.cs, origin/main.cs)
+Author: viorelrotari15 <viorelrotari15@gmail.com>
+Date:   Sun Oct 6 21:44:25 2019 +0300
++using System;
++
++// namespace declaration
++namespace HelloWorldApp {
++
++    // Class declaration
++    class Geeks {
++
++        // Main Method
++        static void Main(string[] args) {
++
++            // statement
++            // printing Hello World!
++            Console.WriteLine("Hello World!");
++
++            // To prevents the screen from
++            // running and closing quickly
++            Console.ReadKey();
++        }
++    }
+
+   4.main.java : HEAD SHA-1 checksum,
+$ git show
+commit 89cf08ce189c057565dcc2c3da13992496c1d93c (HEAD -> main.gava, origin/main.gava)
+Author: viorelrotari15 <viorelrotari15@gmail.com>
+Date:   Sun Oct 6 21:56:09 2019 +0300
+
+    main java commit
+
+diff --git a/main.java b/main.java
+new file mode 100644
+index 0000000..e69de29
+
+5.main.js : HEAD SHA-1 checksum,
+$ git show
+commit 57e1682152010a3d43e66901cda1d88ecb35300c (HEAD -> main.js, origin/main.js)
+Author: viorelrotari15 <viorelrotari15@gmail.com>
+Date:   Sun Oct 6 22:10:52 2019 +0300
+
+     js commit
+
+diff --git a/main.js b/main.js
+new file mode 100644
+index 0000000..b54e25f
+--- /dev/null
++++ b/main.js
+@@ -0,0 +1,16 @@
++<!DOCTYPE HTML>
++<html>
++
++<body>
++
++  <p>Before the script...</p>
++
++  <script>
++    alert( 'Hello, world!' );
++  </script>
+  
+6.main.jsx : HEAD SHA-1 checksum,
+l-1 (main.jsx)
+$ git show
+commit 412bd88e17c6f7b8626262bc878bd13d44dbc28a (HEAD -> main.jsx, origin/main.jsx)
+Author: viorelrotari15 <viorelrotari15@gmail.com>
+Date:   Sun Oct 6 23:16:23 2019 +0300
+
+     jsx commit
+
+diff --git a/main.jsx b/main.jsx
+new file mode 100644
+index 0000000..500bc6c
+--- /dev/null
++++ b/main.jsx
+@@ -0,0 +1,19 @@
++<!DOCTYPE HTML>
++<html>
++
++<body>
++
++  <p>Before the script...</p>
++
++  <script>
++    ReactDOM.render(
++  <h1>Hello, world!</h1>,
++  document.getElementById('root')
++);
++  </script>
++
++  <p>...After the script.</p>
++
++</body>
++
++</html>
+\ No newline at end of file
+(END)
+
+
+7.main.php : HEAD SHA-1 checksum,
+
+
+$ git show
+commit 6b45c3709bbb4569427b61588196c4fa9b022e2e (HEAD -> main.php, origin/main.php)
+Author: viorelrotari15 <viorelrotari15@gmail.com>
+commit 6b45c3709bbb4569427b61588196c4fa9b022e2e (HEAD -> main.php, origin/main.p
+hp)
+Author: viorelrotari15 <viorelrotari15@gmail.com>
+Date:   Sun Oct 6 23:20:21 2019 +0300
+
+     php commit
+
+diff --git a/main.php b/main.php
+new file mode 100644
+index 0000000..f7ed505
+--- /dev/null
++++ b/main.php
+@@ -0,0 +1,12 @@
++<!DOCTYPE html>
++<html>
++<body>
++
++<h1>My first PHP page</h1>
++
++<?php
++echo "Hello World!";
++?>
++
+
+
+9.main.rb : HEAD SHA-1 checksum,
+
+$ git show
+commit 25e5234a6410b1d1f8b68ce8c21eb52aa84d8bdb (HEAD -> main.rb, origin/main.rb)
+Author: viorelrotari15 <viorelrotari15@gmail.com>
+Date:   Sun Oct 6 23:23:57 2019 +0300
+
+     ruby commit
+
+diff --git a/main.rb b/main.rb
+new file mode 100644
+index 0000000..f3c6d8a
+--- /dev/null
++++ b/main.rb
+@@ -0,0 +1 @@
++puts 'Hello, world!'
+\ No newline at end of file
+
+
+10.main.swift : HEAD SHA-1 checksum,
+
+commit 3f74cd77b28d62ef5c5880bd5dcaab241f1b783d (HEAD -> main.swift, origin/main.swift)
+Author: viorelrotari15 <viorelrotari15@gmail.com>
+Date:   Sun Oct 6 23:25:57 2019 +0300
+
+    swift commit
+
+diff --git a/main.swift b/main.swift
+new file mode 100644
+index 0000000..2cf70bc
+--- /dev/null
++++ b/main.swift
+@@ -0,0 +1,2 @@
++import Swift
++print("Hello, World!")
+\ No newline at end of file
+
+
+
+
+
+
+
+
+
+
+
